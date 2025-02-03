@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner Dog - Detector de Razas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Scanner Dog 🐶</h1>
+        <img src="dog-icon.png" alt="Perrito" class="dog-image">
+        
+        <button id="startCamera">Abrir Cámara</button>
+        <video id="camera" autoplay></video>
+        <button id="captureButton">Tomar Foto</button>
+        
+        <canvas id="canvas"></canvas>
+        <input type="file" id="fileInput" accept="image/*">
+        <button id="uploadButton">Subir Imagen</button>
+        <button id="identifyButton">Identificar Raza</button>
+        
+        <div id="preview" class="preview-container">
+            <h3>Imagen seleccionada:</h3>
+            <img id="previewImage" src="" alt="Imagen del perro" class="preview-image">
+        </div>
+
+        <div id="result" class="result-container"></div>
+    </div>
+
+    <footer class="footer">
+        <p>Creado por <strong>Christian Alonso</strong> 🐾</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.dog-image {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#startCamera {
+    background: #ff9800;
+    color: white;
+}
+
+#captureButton {
+    background: #4caf50;
+    color: white;
+}
+
+#uploadButton {
+    background: #2196f3;
+    color: white;
+}
+
+#identifyButton {
+    background: #e91e63;
+    color: white;
+}
+
+.preview-container {
+    margin-top: 10px;
+}
+
+.preview-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    border-radius: 8px;
+}
